@@ -13,6 +13,7 @@ body {
   height: 100vh;
   overflow: hidden;
   margin: 0;
+  background-image: linear-gradient(rgb(149, 92, 92), grey), url(../images/flower.jpg);
 }
 
 .panel {
@@ -41,6 +42,10 @@ body {
   margin: 0;
   opacity: 0;
   font-style: italic;
+}
+
+#sunny {
+  padding-left: 4%;
 }
 
 .panel.active {
